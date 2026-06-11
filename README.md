@@ -183,3 +183,213 @@ border-radius:15px;
 font-size:18px;
 
 }
+
+footer{
+
+text-align:center;
+
+padding:40px;
+
+color:#777;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<div>
+
+<h1>🕊 RUANG PULANG MAPUYUH</h1>
+
+<p>
+
+Kalau hari ini adalah kesempatan terakhir kita duduk bersama,
+
+apa yang ingin kamu sampaikan kepada keluarga ini?
+
+</p>
+
+<button onclick="document.getElementById('mulai').scrollIntoView({behavior:'smooth'})">
+
+Aku Siap Bercerita
+
+</button>
+
+</div>
+
+</div>
+
+<section>
+
+<h2 align="center">📸 Perjalanan Kita</h2>
+
+<br>
+
+<div class="gallery">
+
+<img src="foto1.jpg">
+
+<img src="foto2.jpg">
+
+<img src="foto3.jpg">
+
+<img src="foto4.jpg">
+
+<img src="foto5.jpg">
+
+</div>
+
+</section>
+
+<section id="mulai">
+
+<div class="card">
+
+<h2>🤍 Cerita Pertama</h2>
+
+<p>
+
+Saat pertama kali menjadi bagian dari MAPUYUH,
+
+apa yang kamu rasakan?
+
+Apakah perasaan itu masih ada sampai sekarang?
+
+</p>
+
+<textarea></textarea>
+
+</div>
+
+<div class="card">
+
+<h2>😔 Yang Tidak Pernah Kamu Ceritakan</h2>
+
+<p>
+
+Apakah kamu pernah menangis,
+
+kecewa,
+
+atau merasa sendirian selama perjalanan ini?
+
+Jika iya,
+
+ceritakan.
+
+</p>
+
+<textarea></textarea>
+
+</div>
+
+<div class="card">
+
+<h2>🫂 Tentang Kita</h2>
+
+<p>
+
+Menurutmu,
+
+kenapa kita tidak sedekat dulu?
+
+</p>
+
+<select>
+
+<option>Pilih Jawaban</option>
+
+<option>Kesibukan</option>
+
+<option>Salah paham</option>
+
+<option>Circle</option>
+
+<option>Kurang komunikasi</option>
+
+<option>Lainnya</option>
+
+</select>
+
+</div>
+
+<div class="card">
+
+<h2>🙏 Maaf dan Terima Kasih</h2>
+
+<p>
+
+Kalau hari ini kamu bisa meminta maaf
+
+atau berterima kasih kepada seseorang di MAPUYUH,
+
+kepada siapa dan kenapa?
+
+</p>
+
+<textarea></textarea>
+
+</div>
+
+<div class="card">
+
+<h2>💌 Surat Untuk MAPUYUH</h2>
+
+<p>
+
+Bayangkan beberapa tahun lagi kita sudah sibuk dengan jalan masing-masing.
+
+Tulis surat untuk keluarga ini.
+
+Tidak ada batasan panjangnya.
+
+</p>
+
+<textarea style="min-height:300px;"></textarea>
+
+</div>
+
+<div class="card">
+
+<h2>🌙 Pesan Terakhirmu</h2>
+
+<p>
+
+Jika ini adalah malam terakhir kita berkumpul,
+
+apa yang ingin kamu katakan kepada seluruh MAPUYUH?
+
+</p>
+
+<textarea></textarea>
+
+</div>
+
+<button class="submit">
+
+Kirim Ceritaku 🤍
+
+</button>
+
+</section>
+
+<footer>
+
+"Semoga suatu hari nanti,
+
+ketika kita membuka halaman ini lagi,
+
+yang tersisa bukan penyesalan,
+
+tetapi rasa bangga pernah menjadi keluarga MAPUYUH."
+
+</footer>
+
+</body>
+
+</html>
