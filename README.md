@@ -1,5 +1,4 @@
 # Ruang-Pulang-Mapuyuh
-<!DOCTYPE html>
 <html lang="id">
 
 <head>
